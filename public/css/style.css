@@ -3,31 +3,51 @@
 body{
 
 }
+#bind-all{
+	margin: 0 auto;
+	width: 600px;
+	height: 200px;
+	background: #AAA;
+	position: relative;
+}
+#prev{
+	height: 200px;
+	width: 50px;
+	z-index: 1000;
+	position: absolute;
+	left: 0;
+	top: 0;
 
+	padding: 14% 16px;
+}
+#next{
+	height: 200px;
+	padding: 5px;
+	z-index: 1000;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	padding: 14% 16px;
+}
 #plugin-container{
 	margin: 10px auto;
 	padding: 5px;
-
 	background: #CCC;
-
 	width: 500px;
 	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.plugin-wrapper{
+
+	height: 100%;
+	float: left;
+	display: inline-flex;
 
 	position: relative;
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-	/* If you don't want the images in the scroller to be selectable, try the following
-		block of code. It's just a nice feature that prevent the images from
-		accidentally becoming selected/inverted when the user interacts with the scroller. */
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
 
+}
 .wrapper{
 	width: auto;
 	height: 100%;
@@ -47,4 +67,20 @@ body{
 
 	width: 200px;
 	height: 100%;
+}
+
+header{
+	width: 70%;
+	margin: 10px auto;
+	background: #CCC;
+	text-align: center;
+	padding: 20px;
+}
+
+footer{
+	width: 70%;
+	margin: 10px auto;
+	background: #CCC;
+	text-align: center;
+	padding: 20px;
 }
