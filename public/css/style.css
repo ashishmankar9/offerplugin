@@ -1,0 +1,50 @@
+/*Overrides Bootstrap CSS*/
+
+body{
+
+}
+
+#plugin-container{
+	margin: 10px auto;
+	padding: 5px;
+
+	background: #CCC;
+
+	width: 500px;
+	height: 200px;
+
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	/* If you don't want the images in the scroller to be selectable, try the following
+		block of code. It's just a nice feature that prevent the images from
+		accidentally becoming selected/inverted when the user interacts with the scroller. */
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.wrapper{
+	width: auto;
+	height: 100%;
+
+	position: relative;
+	display: block;
+	float: left;
+
+	margin: 0;
+	padding: 0;
+}
+
+.offer{
+	margin: 0 2px;
+
+	background: #DDD;
+
+	width: 200px;
+	height: 100%;
+}
