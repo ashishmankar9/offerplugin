@@ -70,7 +70,7 @@ body{
 }
 
 header{
-	width: 70%;
+	width: 100%;
 	margin: 10px auto;
 	background: #CCC;
 	text-align: center;
@@ -78,7 +78,7 @@ header{
 }
 
 footer{
-	width: 70%;
+	width: 100%;
 	margin: 10px auto;
 	background: #CCC;
 	text-align: center;

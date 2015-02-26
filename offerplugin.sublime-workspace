@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"pug",
+				"plugin-wrapper"
+			],
+			[
 				"in",
 				"inline"
 			],
@@ -19,7 +27,7 @@
 			"file": "application/views/inc/header_view.php",
 			"settings":
 			{
-				"buffer_size": 567,
+				"buffer_size": 490,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,7 +35,7 @@
 			"file": "application/views/inc/footer_view.php",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 96,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +43,7 @@
 			"file": "application/views/plugin/plugin_view.php",
 			"settings":
 			{
-				"buffer_size": 119,
+				"buffer_size": 243,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +51,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 1011,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +59,7 @@
 			"file": "public/js/script.js",
 			"settings":
 			{
-				"buffer_size": 192,
+				"buffer_size": 393,
 				"line_ending": "Windows"
 			}
 		}
@@ -127,7 +135,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -135,24 +143,25 @@
 					"file": "application/views/inc/header_view.php",
 					"settings":
 					{
-						"buffer_size": 567,
+						"buffer_size": 490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								479,
+								479
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -162,15 +171,15 @@
 					"file": "application/views/inc/footer_view.php",
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 96,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								44,
+								44
 							]
 						],
 						"settings":
@@ -188,15 +197,15 @@
 					"file": "application/views/plugin/plugin_view.php",
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								129,
+								129
 							]
 						],
 						"settings":
@@ -214,23 +223,24 @@
 					"file": "public/css/style.css",
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 1011,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								93
+								370,
+								370
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 193.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -240,20 +250,21 @@
 					"file": "public/js/script.js",
 					"settings":
 					{
-						"buffer_size": 192,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								29,
+								29
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
