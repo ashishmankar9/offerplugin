@@ -8,6 +8,8 @@
 	<script src="<?php base_url()?>public/js/jQuery.js"></script>
 		
 	<script src="<?php base_url()?>public/js/bootstrap.js"></script>
+	<script type="text/javascript" src="<?php base_url()?>public/js/jssor.js"></script>
+    <script type="text/javascript" src="<?php base_url()?>public/js/jssor.slider.js"></script>
 	<script src="<?php base_url()?>public/js/script.js"></script>
 </head>
 <body>
